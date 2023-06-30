@@ -1,8 +1,5 @@
-
-export const Header = ({ }) => {
-
-
-    return `
+export const Header = ({}) => {
+  return `
 <header class="one">
   <div class="top-header">
     <div class="container">

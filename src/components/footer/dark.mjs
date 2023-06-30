@@ -1,9 +1,5 @@
-
-
 export const DarkFooter = ({}) => {
-
-
-    return `
+  return `
 <footer class="three" style="background-image:url(/assets/img/patron-black.jpg)">
    <div class="container gap no-bottom">
       <div class="row">
