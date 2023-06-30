@@ -1,0 +1,8 @@
+{
+  "name": "@pages/blog",
+  "main": "index.mjs",
+  "packageManager": "yarn@4.0.0-rc.47",
+  "dependencies": {
+    "@website/components": "workspace:^"
+  }
+}
