@@ -1,9 +1,5 @@
-
-
 export const LightFooter = ({}) => {
-
-
-    return `
+  return `
 <footer style="background-image: url(https://via.placeholder.com/1920x660);background-color: #f5f8fd;">
    <div class="container">
       <div class="row">

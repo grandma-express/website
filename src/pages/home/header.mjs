@@ -1,8 +1,5 @@
-
-export const Header = ({ }) => {
-
-
-    return `
+export const Header = ({}) => {
+  return `
 <header class="three">
    <div class="container">
       <div class="row align-items-center">

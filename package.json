@@ -1,7 +1,12 @@
 {
   "name": "website",
   "scripts": {
-    "build": "node build.mjs"
+    "build": "node build.mjs",
+    "serve": "http-server dist",
+    "lint:format": "rome format src --write",
+    "lint:check": "rome check src",
+    "lint:apply": "rome check src --apply-unsafe",
+    "lint:fix": "yarn lint:format && yarn lint:apply"
   },
   "workspaces": [
     "src/components",
@@ -19,5 +24,9 @@
     "@pages/dishes": "workspace:^",
     "@pages/home": "workspace:^",
     "@pages/menus": "workspace:^"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "rome": "^12.1.3"
   }
 }

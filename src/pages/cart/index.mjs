@@ -1,10 +1,7 @@
-import { Head, Header, LightFooter } from "@website/components";
+import { Head, Header, LightFooter } from '@website/components'
 
-export const cartFactory = ({ lang = `en` }) => {
-
-
-
-    return `
+export const cartFactory = ({ lang = 'en' }) => {
+  return `
 <!DOCTYPE html>
 <html lang="${lang}">
 ${Head({})}
