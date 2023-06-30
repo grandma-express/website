@@ -3,13 +3,13 @@
     [Master Stylesheet]
 
     Project:    Foodio - Fast Food & Restaurant HTML Template
-    
+
     Version:    1.0
 
 -----------------------------------------------------------------------------------
 
     [Table of contents]
-    
+
         1. header-top
         2. navbar
         3. cart popup
@@ -382,7 +382,7 @@ figure {
     content: "";
     width: 25px;
     height: 25px;
-    background-image: url('../img/remove.svg');
+    background-image: url('/assets/img/remove.svg');
     background-repeat: no-repeat;
     position: absolute;
     top: -5px;
@@ -419,7 +419,7 @@ figure {
     width: 50%;
     text-align: center;
     padding: 10px;
-    border: 2px solid #909090;   
+    border: 2px solid #909090;
 }
 .cart-popup .cart-btns a:not(:last-child){
     margin-right: 8px;
@@ -843,7 +843,7 @@ section.slider-hero {
     font-size: 18px;
     color: white;
     padding-top: 30px;
-} 
+}
 .reserve-table .best-food-restaurants form {
     margin-left: 30px;
     text-align: end;
@@ -902,7 +902,7 @@ section.slider-hero {
     from {
         transform: rotate(0deg);
     }
-    to { 
+    to {
         transform: rotate(360deg);
     }
 }
@@ -910,7 +910,7 @@ section.slider-hero {
     from {
         -webkit-transform: rotate(0deg);
     }
-    to { 
+    to {
         -webkit-transform: rotate(360deg);
     }
 }
@@ -918,7 +918,7 @@ section.slider-hero {
     from {
         -moz-transform: rotate(0deg);
     }
-    to { 
+    to {
         -moz-transform: rotate(360deg);
     }
 }
@@ -926,7 +926,7 @@ section.slider-hero {
     from {
         -o-transform: rotate(0deg);
     }
-    to { 
+    to {
         -o-transform: rotate(360deg);
     }
 }
@@ -2095,7 +2095,7 @@ header.three .contact svg {
     width: 77%;
     height: 100%;
     top: 0;
-    background-image: url(../img/patron.jpg);
+    background-image: url(/assets/img/patron.jpg);
     border-top-right-radius: 450px;
     z-index: -1;
     border-bottom-right-radius: 450px;
@@ -3762,7 +3762,7 @@ span#progress-value i {
     width: 11px;
 }
 .for #nav-icon4{
-  color: black;   
+  color: black;
 }
 #nav-icon4 span:nth-child(1) {
   top: 0px;
@@ -3850,7 +3850,7 @@ i#nav-icon4 {
 }
 .mobile-nav > ul > li.menu-item-has-children:before {
     content: "";
-    background-image: url(../img/down-arrow.svg);
+    background-image: url(/assets/img/down-arrow.svg);
     background-repeat: no-repeat;
     position: absolute;
     top: 25px;
@@ -3863,7 +3863,7 @@ i#nav-icon4 {
     -o-transform: rotate(-90deg);
 }
 .mobile-nav > ul > li.menu-item-has-children.active:before {
-    background-image: url(../img/down-arrow-clr.svg);
+    background-image: url(/assets/img/down-arrow-clr.svg);
     transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -3986,7 +3986,7 @@ li.menu-item-has-children.active {
     content: "";
     width: 35px;
     height: 35px;
-    background-image: url('../img/remove.svg');
+    background-image: url('/assets/img/remove.svg');
     background-repeat: no-repeat;
     position: absolute;
     top: 15px;
@@ -4121,7 +4121,7 @@ table.shop_table.table-responsive .coupon {
   animation: rotate-move 2s ease-in-out infinite;
 }
 
-.dot { 
+.dot {
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -4196,7 +4196,7 @@ table.shop_table.table-responsive .coupon {
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: #F90; 
+    background-color: #F90;
     background-image: -webkit-linear-gradient(45deg,
     rgba(255, 255, 255, .2) 25%,
     transparent 25%,

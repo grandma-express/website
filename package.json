@@ -1,4 +1,23 @@
 {
   "name": "website",
-  "packageManager": "yarn@4.0.0-rc.47"
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "workspaces": [
+    "src/components",
+    "src/pages/*"
+  ],
+  "packageManager": "yarn@4.0.0-rc.47",
+  "dependencies": {
+    "@pages/about": "workspace:^",
+    "@pages/blog": "workspace:^",
+    "@pages/blog-details": "workspace:^",
+    "@pages/cart": "workspace:^",
+    "@pages/checkout": "workspace:^",
+    "@pages/contacts": "workspace:^",
+    "@pages/details": "workspace:^",
+    "@pages/dishes": "workspace:^",
+    "@pages/home": "workspace:^",
+    "@pages/menus": "workspace:^"
+  }
 }
