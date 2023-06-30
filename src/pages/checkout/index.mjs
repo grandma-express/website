@@ -105,7 +105,7 @@ ${Header({})}
                         </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="cart_totals-checkout" style="background-image: url(assets/img/patron.jpg)">
+                    <div class="cart_totals-checkout" style="background-image: url(/assets/img/patron.jpg)">
                         <div class="cart_totals cart-Total">
                                 <h4>Cart Total</h4>
                                 <table class="shop_table_responsive">

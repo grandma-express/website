@@ -45,7 +45,7 @@ export const Header = ({}) => {
                 <a href="#" class="button">Reserve a Table</a>
             </div>
          </div>
-         <div class="mobile-nav hmburger-menu" id="mobile-nav" style="display:block; background-image:url(assets/img/patron.jpg)">
+         <div class="mobile-nav hmburger-menu" id="mobile-nav" style="display:block; background-image:url(/assets/img/patron.jpg)">
             <div class="res-log">
               <a href="/">
                 <img src="/assets/img/logo.png" alt="Responsive Logo" class="white-logo">
